@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: yellowgreen;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 25px;
+    text-align: center
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.first{
+    color:rgb(58, 53, 53);
+}
+
+#your-name {
+    background-color: rgb(174, 170, 170);
+    border: 5px solid rgb(10, 10, 10);
+    width: 400px;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 15px;
+}
+
+a {
+    background-color: rgb(14, 243, 14)
+}
+
+#course-image { 
+width: 260px;
+
+}
+
+/* content: text, images, etc
+padding: transparent area around the content, inside the box
+border: goes around the padding and the content
+margin: white space outside of the box itself, space between boxes
+fill area: the properties will be applied to the fill area but not the margin
